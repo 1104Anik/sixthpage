@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Using Links In HTML5</title>
+</head>
+<body>
+<header>
+<h1>Hyperlinks</h1>
+</header>
+<main> knowing how to link your code to other documents is important
+<div id ="absolute">
+<h2>Absolute reference</h2>
+<P>The type of link used in basicLinks.html is an absolute reference. Absolute references always begin with the protocol name. An absolute reference is the complete address to a web page, just as you’d use in the browser’s address bar. Absolute references are used to refer to a site somewhere else on the Internet.
+Even if your website moves (say, from your desktop machine to a web server somewhere on the Internet), all the absolute references will work fine because they don’t rely on the current page’s position for any information.
+</p>
+<ul>
+	<li><a href="https://www.w3school.com">w3school</a><br></li>
+	<li><a href="https://www.Google.com">Google</a><br></li>
+	<li><a href="https://www.gmail.com">Gmail</a><br></li>
+</ul>
+<p>
+Absolute references always begin with the protocol name
+</p>
+</div>
+
+<div id ="relative">
+<h2>relative reference</h2>
+<p>
+Relative URLs take into account the argument that the server already knows where the page is located. Therefore, Google makes assumptions itself about the domain. Sometimes this leads to search engine errors, sending users to the wrong pages.
+For example, the relative path for /duplicate-content is /blog/duplicate-content. The search engine has to guess on its own that this address refers to https://www.seoquake.com.
+</p>
+<ul>
+	<li><a href="image/Capture2.JPG">shipon trying new exam pose</a><br></li>
+</ul>
+<p>
+Relative URLs take into account the argument that the server already knows where the page is located
+</p>
+</div>
+
+<div id="images">
+<h2>images as links</h2>
+<p>
+To use image as a link in HTML, use the <img> tag as well as the <a> tag with the href attribute. The <img> tag is for using an image in a web page and the <a> tag is for adding a link. Under the image tag src attribute, add the URL of the image. With that, also add the height and width.
+</p>
+<ul>
+	<li><a href="image/Capture2.JPG"><img src="image/Capture2.JPG" alt="shipon"</a><br></li>
+</ul>
+<p>The <img> tag is for using an image in a web page and the <a> tag is for adding a link.
+</p>
+</div>
+
+<div id="embedded">
+<h2>embedded links</h2>
+<p>Every tag have an id attribute yhe id attribut gives a name to a specific section of the <abbr title="Document object model">DOM</abbr></p>
+<ul>
+	<li><a href="#section2" id ="absolute"><h2>Absolute reference</h2></a><br></li>
+	<li><a href="#section2" id ="relative"><h2>relative reference<a/></h2>><br></li>
+	<li><a href="images"><br></li>
+	<li><a href="embedded"><br></li>
+</ul>
+</div>
+
